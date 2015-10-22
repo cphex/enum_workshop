@@ -1,6 +1,6 @@
 # Enum Workshop
 
-A workshop where we reimplement common functions found in the Elixir Enum module.
+A workshop where we reimplement functions found in the Elixir Enum module.
 
 You can find a description about a given module by typing `h Enum.count` in iex.
 
