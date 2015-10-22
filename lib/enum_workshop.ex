@@ -39,24 +39,6 @@ defmodule EnumWorkshop do
   end
 
   @doc """
-  reimplement the functionality of `Enum.reverse/1` without using the
-  `reverse/1` function from the `Enum.module`.
-
-    iex> EnumWorkshop.reverse([1, 2, 3, 4])
-    [4, 3, 2, 1]
-
-    iex> EnumWorkshop.reverse([1, 1, 2, 2])
-    [2, 2, 1, 1]
-
-    iex> EnumWorkshop.reverse([1, 2, 1])
-    [1, 2, 1]
-  """
-  @spec reverse(list) :: [Any]
-  def reverse(list) do
-    Enum.reverse list # replace with your own implementation
-  end
-
-  @doc """
   reimplement the functionality of `Enum.min/1` without using the
   `min/1` function from the `Enum.module`.
 
@@ -72,6 +54,24 @@ defmodule EnumWorkshop do
   @spec min([Integer]) :: Integer
   def min(list) do
     Enum.min list # replace with your own implementation
+  end
+
+  @doc """
+  reimplement the functionality of `Enum.reverse/1` without using the
+  `reverse/1` function from the `Enum.module`.
+
+    iex> EnumWorkshop.reverse([1, 2, 3, 4])
+    [4, 3, 2, 1]
+
+    iex> EnumWorkshop.reverse([1, 1, 2, 2])
+    [2, 2, 1, 1]
+
+    iex> EnumWorkshop.reverse([1, 2, 1])
+    [1, 2, 1]
+  """
+  @spec reverse(list) :: [Any]
+  def reverse(list) do
+    Enum.reverse list # replace with your own implementation
   end
 
   @doc """
